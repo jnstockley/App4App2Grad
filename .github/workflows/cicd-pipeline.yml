@@ -1,13 +1,14 @@
 name: CI/CD Pipeline
 
 on:
-  push:
-  pull_request:
-    types:
-      - opened
-      - reopened
-    branches:
-      - main
+  workflow_dispatch:
+#  push:
+#  pull_request:
+#    types:
+#      - opened
+#      - reopened
+#    branches:
+#      - main
 
 jobs:
   Linting:
